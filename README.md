@@ -4,7 +4,7 @@
 
 All participants should adhere to the following rules: 
 
-1.	DATA: Only MagicData RAMC (openslr 123), VoxCeleb Data (openslr 49) and CN-Celeb Corpus (openslr 82) are allowed to use. Data augmentation could be used to process the training sets, and two noise datasets, i.e., MUSAN (openslr 17), RIRNoise (openslr 28), are allowed.
+1.	DATA: Only [MagicData RAMC](https://magichub.com/datasets/magicdata-ramc/), VoxCeleb Data (openslr 49) and CN-Celeb Corpus (openslr 82) are allowed to use. Data augmentation could be used to process the training sets, and two noise datasets, i.e., MUSAN (openslr 17), RIRNoise (openslr 28), are allowed.
 2.	The use of Test dataset in any form of non-compliance is strictly prohibited, including but not limited to use the Test dataset to fine-tune or train the model. 
 3.	Multi-system fusion is allowed. However, fusing systems with same structure is not encouraged.  
 4.	All models should train on the allowed datasets. Specifically, pre-train model using other datasets (including unlabeled data) are not allowed in this challenge. 
@@ -12,7 +12,7 @@ All participants should adhere to the following rules:
 
 ## Dataset
 
-The MagicData-RAMC corpus contains 180 hours of conversational speech data recorded from native speakers of Mandarin Chinese over mobile phones with a sampling rate of 16 kHz. The dialogs in MagicData-RAMC are classified into 15 diversified domains and tagged with topic labels, ranging from science and technology to ordinary life. Accurate transcription and precise speaker voice activity timestamps are manually labeled for each sample. Speakers' detailed information is also provided. As a Mandarin speech dataset designed for dialog scenarios with high quality and rich annotations, MagicData-RAMC enriches the data diversity in the Mandarin speech community and allows extensive research on a series of speech-related tasks, including automatic speech recognition, speaker diarization, topic detection, keyword search, text-to-speech, etc. Please refer to [MagicData RAMC](https://github.com/MagicHub-io/MagicData-RAMC)
+The MagicData-RAMC corpus contains 180 hours of conversational speech data recorded from native speakers of Mandarin Chinese over mobile phones with a sampling rate of 16 kHz. The dialogs in MagicData-RAMC are classified into 15 diversified domains and tagged with topic labels, ranging from science and technology to ordinary life. Accurate transcription and precise speaker voice activity timestamps are manually labeled for each sample. Speakers' detailed information is also provided. As a Mandarin speech dataset designed for dialog scenarios with high quality and rich annotations, MagicData-RAMC enriches the data diversity in the Mandarin speech community and allows extensive research on a series of speech-related tasks, including automatic speech recognition, speaker diarization, topic detection, keyword search, text-to-speech, etc. Please refer to [MagicData RAMC]( https://magichub.com/datasets/magicdata-ramc/)
 
 ## Baseline
 
