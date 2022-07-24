@@ -5,7 +5,7 @@
 All participants should adhere to the following rules: 
 
 1.	DATA: Only [MagicData RAMC](https://magichub.com/datasets/magicdata-ramc/), VoxCeleb Data (openslr 49) and CN-Celeb Corpus (openslr 82) are allowed to use. Data augmentation could be used to process the training sets, and two noise datasets, i.e., MUSAN (openslr 17), RIRNoise (openslr 28), are allowed.
-2.	The use of Test dataset in any form of non-compliance is strictly prohibited, including but not limited to use the Test dataset to fine-tune or train the model. 
+2.	The use of Test dataset in any form of non-compliance is strictly prohibited, including but not limited to use the Test dataset to fine-tune or train the model. In particular，the Test dataset refers to CSSD-Test set, which will be released on Sep, 8, 2022. And the use of MagicData-RAMC Dev and Test set are not prohibited. 
 3.	Multi-system fusion is allowed. However, fusing systems with same structure is not encouraged.  
 4.	All models should train on the allowed datasets. Specifically, pre-train model using other datasets (including unlabeled data) are not allowed in this challenge. 
 5.	The right of final interpretation belongs to the organizer. In case of special circumstances, the organizer will coordinate the interpretation. 
